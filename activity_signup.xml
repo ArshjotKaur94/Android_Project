@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/g2"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textSize="35dp"
+                android:textColor="#0a0a0a"
+                android:layout_marginTop="30dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please Sign up to enter in a app"
+                android:textColor="#0a0a0a"
+                android:textSize="15dp"></TextView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:layout_width="134dp"
+                    android:layout_height="50dp"
+                    android:hint="FirstName"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#f2f2f2"
+                    android:id="@+id/firstnameid"></EditText>
+
+                <EditText
+                    android:layout_width="134dp"
+                    android:layout_height="50dp"
+                    android:hint="LastName"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#f2f2f2"
+                    android:id="@+id/lastnameid"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:layout_width="278dp"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:id="@+id/emailid"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#f2f2f2"></EditText>
+
+                <EditText
+                    android:layout_width="278dp"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#f2f2f2"
+                    android:id="@+id/passwordid"></EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="+1"
+                    android:textSize="25dp"
+                    android:textColor="#0a0a0a"
+                    android:layout_marginTop="16dp"></TextView>
+                <EditText
+                    android:layout_width="234dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Enter Phone number"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#f2f2f2"
+                    android:id="@+id/phonenumberid"></EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Sign Up"
+                    android:textColor="#ffff"
+                    android:textSize="15dp"
+                    android:background="@drawable/buttonstyle"
+                    android:id="@+id/signup1id"
+                    ></Button>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
